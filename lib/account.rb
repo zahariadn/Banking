@@ -1,5 +1,5 @@
 class Account
-  def initialize(starting_balance=0.0)
+  def initialize(starting_balance)
     @balance=starting_balance
   end
   def get_balance
